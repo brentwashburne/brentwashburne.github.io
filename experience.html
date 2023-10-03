@@ -1,0 +1,115 @@
+<html lang="en">
+    <head>
+        <title>Brent Washburne</title>
+        <meta name="description" content="Full Stack Engineer"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1"/>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <header>
+            <table>
+                <tr>
+                    <td style="width: 75%"><a href="index.html" style="font-size: 20px">Brent</a></td>
+                    <td style="min-width: 80px"><a href="skills.html">Skills</a></td>
+                    <td style="min-width: 100px"><a href="projects.html">Projects</a></td>
+                    <td style="min-width: 120px"><a href="experience.html" class="current">Experience</a></td>
+                </tr>
+            </table><hr>
+            <h1>Experience</h1>
+        </header>
+
+        <div style="margin:24px">
+            <h3 style="text-align: center">Corporate Enterprise SW Engineering</h3>
+            <p>When I joined each company, I learned about the projects and challenges
+                and then I built new products and fixed existing problems,
+                while collaborating with multiple teams.
+            </p><hr>
+            <button class="accordion"><b>Nike</b> - Lead Software Engineer for Platforms Strategy UI development</button>
+            <div class="panel">
+                <ul>
+                    <li>Provided browser-based access for business intelligence and data scientists</li>
+                    <li>Built a data visualization website for AI/ML engineers to monitor their pipelines</li>
+                    <li>AWS cloud hosting, React coding, UX designs, GitHub CI/CD with automated testing</li>
+                    <li>Integrating multiple UIs into a standardized tech stack, including New Relic metrics</li>
+                    <li>Designed and built a New Relic dashboard to view the UI access for all websites</li>
+                    <li>Improved the development and access of all platform UIs.</li>
+                </ul>
+            </div>
+            <hr>
+            <button class="accordion"><b>Walmart Labs</b> - Staff Software Engineer for maintaining backend API micro services</button>
+            <div class="panel">
+                <ul>
+                    <li>Provided browser and smart-phone apps access to shopping services for consumers</li>
+                    <li>Added monitoring and testing across all micro services to handle errors</li>
+                    <li>Migrated the backend services into Docker containers for Kubernetes deployments</li>
+                    <li>After hearing of a credit card issue, we added a security feature to validate requests</li>
+                    <li>Built a backend service for store kiosks to help consumers communicate with the service</li>
+                    <li>Improved and added new features for consumer services</li>
+                </ul>
+            </div>
+            <hr>
+            <button class="accordion"><b>CDK Global</b> - R&D Software Engineer 4 for updating server code and adding UI dashboards</button>
+            <div class="panel">
+                <ul>
+                    <li>Modernized the data retrieval system with a full-stack RESTful API</li>
+                    <li>Created new operations and user administration dashboards</li>
+                    <li>Modernized the server to use NodeJS, MongoDB and Docker</li>
+                    <li>Applied continuous integration with Bamboo and Kubernetes</li>
+                    <li>Trained other engineers company-wide in this micro-architecture</li>
+                    <li>This provided real-time data from all the clients to the business</li>
+                </ul>
+            </div>
+            <hr>
+            <button class="accordion"><b>Smarsh</b> - Sr. Software Engineer</button>
+            <div class="panel">
+                <ul>
+                    <li>Made major improvements to code & database schema to reduce disk & bandwidth usage</li>
+                    <li>Rewrote a retrieval system to handle embedded Javascript code in HTML pages</li>
+                    <li>Researched new technologies for web proxy servers & delivered a Python server
+                        that ran six times faster</li>
+                    <li>Improved the Admin UI with Bootstrap and jQuery</li>
+                    <li>Increased the efficiency and performance of multiple company tools</li>
+                </ul>
+            </div>
+            <hr>
+            <button class="accordion"><b>Lam Research</b> (formerly Novellus) - Senior Software Manager</button>
+            <div class="panel">
+                Projects, tools, client, challenge, solutions, results
+            </div>
+            <hr>
+
+            <h3 style="text-align: center">Startup Development</h3>
+            <ul>
+                <li>ePayment Express</li>
+                <li>Perceptive Pixel</li>
+                <li>Ask Research</li>
+                <li>Investools</li>
+            </ul>
+
+            <h3 style="text-align: center">Web Dev Projects</h3>
+            <ul>
+                <li>Record Breakr</li>
+                <li>HipCooks</li>
+                <li>Mountain Measurement</li>
+                <li>Voyager Components</li>
+            </ul>
+        </div>
+
+        <footer>
+            Call or email to start a conversation:<br/>503-707-9432 or
+            <a href="mailto:brentwashburne@gmail.com">brentwashburne@gmail.com</a>
+        </footer>
+    </body>
+</html>
+
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    for (var i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            this.classList.toggle("active")
+            var panel = this.nextElementSibling
+            panel.style.maxHeight = panel.style.maxHeight ? null : panel.scrollHeight + "px"
+        })
+}
+</script>
