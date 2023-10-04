@@ -9,6 +9,8 @@ header a {color: white}
 header a:hover { background-color: #7db9e8}
 header h1 {font-size: 40px}
 header h3 {font-family: serif; font-size: 24px}
+header table {width: 100%}
+header table td {width: 25%; text-align: center}
 .current {color: white; border-bottom: 2px solid white}
 footer {background-color: #CCC; padding: 24px; text-align: center}
 
