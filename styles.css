@@ -13,7 +13,7 @@ header table {width: 100%}
 header table td {width: 25%; text-align: center}
 .current {color: white; border-bottom: 2px solid white}
 footer {background-color: #CCC; padding: 24px; text-align: center}
-
+  
 /* https://www.w3schools.com/howto/howto_js_accordion.asp */
 .accordion {
     background-color: #eee;
@@ -45,4 +45,4 @@ footer {background-color: #CCC; padding: 24px; text-align: center}
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
-  }
+}
